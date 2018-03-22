@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.testimonials-job {
+  font-size:
+}
+
+.navigation ul  {
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  text-align: right;
+}
+
+.navigation ul li {
+  display: inline-block;
+  position: relative;
+}
+
+
+.navigation ul li.align-left {
+  float: left;
+}
+
+.navigation ul li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+}
+
+.navigation ul li a:hover {
+  color: #fff;
+  background-color: #643A79;
+  border-radius: 10px
+}
+
+.section {
+  padding: 80px;
+}
+
+.section-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.section-title .section-header {
+  margin-top: 0;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.purple {
+  background: #87509C;
+}
+
+.purple .testimonials-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin: 100px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all 300ms ease;
+  height: 60px;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover {
+  transform: translateY(9px);
+}
+
+.purple button {
+  background-color: #EB7D4B;
+  box-shadow: 0 9px #CA6B40;
+}
+
+.purple button:hover {
+  box-shadow: 0 0px #CA6B40;
+}
+
+.niagara {
+  background: #17C2A4;
+}
+
+.niagara .testimonials-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.niagara hr {
+  height: 3px;
+  color: #13A78D;
+  background-color: #13A78D;
+  border: none;
+}
+
+.niagara .service {
+  text-align: center;
+}
+
+.niagara .service-text {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.niagara .service-name {
+  font-size: 25px;
+}
+
+.alice {
+  background: #E7F1F8;
+}
+
+.alice .team {
+  text-align: center;
+}
+
+.alice h1,
+.alice h2,
+.alice p {
+  color: #3C4761;
+}
+
+.alice h3 {
+  color: #49C1E9;
+}
+
+.alice hr {
+  height: 3px;
+  color: #C7D9E5;
+  background-color: #C7D9E5;
+  border: none;
+}
+
+.alice .socials {
+  margin-top: 20px;
+}
+
+.alice .socials a {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.alice .socials i {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  background: #BDD1DF;
+}
+
+.alice .socials a:last-child {
+  margin-right: 0;
+}
+
+.alice .socials a:hover {
+  color: #fff;
+}
+
+.alice .socials a:hover i {
+  background: #3C4761;
+}
+
+.white {
+  background:  #fff;
+}
+
+.white h1 {
+  color: #3C4761;
+}
+
+.white h2 {
+  color: #3C4761;
+}
+
+.white p {
+  color: #3C4761;
+}
+
+.white hr {
+  height: 3px;
+  color: #C7D9E5;
+  background-color: #C7D9E5;
+  border: none;
+}
+
+.orange {
+  background: #FFDD99;
+}
+
+.orange h1 {
+  color: #393939;
+}
+
+.orange p {
+  color: #393939;
+}
+
+.orange hr {
+  height: 3px;
+  color: #E5C37F;
+  background-color: #E5C37F;
+  border: none;
+}
+
+.orange button {
+  background-color: #17C2A4;
+  box-shadow: 0 9px #13A78D;
+}
+
+.orange button:hover {
+  box-shadow: 0 0px #13A78D;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.orange .column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.pink {
+  background: #D74680;
+}
+
+.pink h1 {
+
+}
+
+.pink .info {
+  color: #fff;
+}
+
+.pink hr {
+  height: 3px;
+  background: #B93C6E;
+  border: none;
+}
+
+.pink .column1 {
+  float: left;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.pink .column1 .info {
+  flex: 1;
+}
+
+.pink .column1 .info p {
+  margin-top: 0;
+}
+
+.pink .column1 svg {
+  margin-right: 30px;
+  float: left;
+}
+
+.pink .column1 .info {
+  padding-left: 120px;
+}
+
+
+.testimonials-body {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonials-name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimonials-job {
+  font-size: 18px;
+  color: #666;
+}
+
+.blue {
+  background: #3C5499;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 0;
+
+}
+
+.contact-form * {
+  width: 100%;
+  font-size: 16px;
+}
+
+.contact-form .input-group {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-width: calc(50% - 10px);
+  display: inline-block;
+  position: relative;
+}
+
+.contact-form .input-group input {
+  width: 100%;
+}
+
+.contact-form .input-group input.not-empty + label {
+  /* opacity: 0; */
+  font-size: 10px;
+  transform: translateY(calc(-50% - 30px))
+}
+
+.contact-form .input-group label {
+  position: absolute;
+  top: 50%;
+  transition: all 300ms ease;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+.contact-form .input-group.last {
+  margin-right: 0;
+}
+
+.contact-form button {
+  display: block;
+  width: auto;
+  margin-top: 20px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}

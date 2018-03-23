@@ -509,3 +509,10 @@ input[type=submit] {
   color: #30BAE7;
   border-radius: 5px;
 }
+
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}

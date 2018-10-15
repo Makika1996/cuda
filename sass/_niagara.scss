@@ -1,0 +1,52 @@
+.niagara {
+  background: #17C2A4;
+
+  .section-header,
+  .section-text {
+    color: #fff;
+  }
+
+  hr {
+    background-color: #13A78D;
+  }
+
+  .service {
+    text-align: center;
+  }
+
+  .service-text {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+
+  .service-name {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .service-description {
+    color: #fff;
+    margin-bottom: 60px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 1080px) {
+    /* <= 768px */
+    /* For mobile phones: */
+    .column {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    /* <= 768px */
+    /* For mobile phones: */
+    .column {
+      width: 100%;
+    }
+  }
+}

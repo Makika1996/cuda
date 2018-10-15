@@ -1,0 +1,8 @@
+@mixin button($bgColor, $bxColor) {
+  background-color: $bgColor;
+  box-shadow: 0 9px $bxColor;
+
+  &:hover {
+    box-shadow: 0 0 $bxColor;
+  }
+}

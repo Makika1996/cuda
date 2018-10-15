@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  height: 4px;
+  border: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff ;
+}
+
+
+.row {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,78 @@
+.alice {
+  background: #E7F1F8;
+
+  .team {
+    text-align: center;
+  }
+
+  .section-header,
+  .section-text {
+    color: #3C4761;
+  }
+
+  hr {
+    background-color: #C7D9E5;
+  }
+
+  .team-name {
+    color: #3C4761;
+    margin: 10px;
+  }
+
+  .team-job {
+    color: #30BAE7;
+    margin-bottom: 20px;
+  }
+
+  .socials {
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    a {
+      margin-right: 10px;
+      color: #fff;
+      font-size: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: #fff;
+
+        i {
+          background: #3C4761;
+        }
+      }
+    }
+
+    i {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      border-radius: 50%;
+      background: #BDD1DF;
+    }
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 1080px) {
+    /* <= 768px */
+    /* For mobile phones: */
+    .column {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    /* <= 768px */
+    /* For mobile phones: */
+    .column {
+      width: 100%;
+    }
+  }
+}
